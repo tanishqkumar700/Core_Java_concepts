@@ -6,5 +6,7 @@ public class Main {
         e1.setData();
         e1.acceptData();
         e1.showData();
+        //OR
+        System.out.println(e1);
     }
 }

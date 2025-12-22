@@ -15,6 +15,16 @@ public class PermanentEmployee extends TemporaryEmployee{
         System.out.println("Employee address is:" + employeeAddress);
         System.out.println("Department is:" + department);
         System.out.println("Designation is:" + designation);
+    }
 
+    @Override
+    public String toString() {
+        return "PermanentEmployee{" +
+                "department='" + department + '\'' +
+                ", designation='" + designation + '\'' +
+                ", employeeNumber=" + employeeNumber +
+                ", employeeName='" + employeeName + '\'' +
+                ", employeeAddress='" + employeeAddress + '\'' +
+                '}';
     }
 }
